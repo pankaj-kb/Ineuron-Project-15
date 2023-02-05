@@ -9,3 +9,7 @@ accordian.forEach((element) => {
     }
   });
 });
+
+let liProject = document.querySelectorAll("ul li a");
+
+liProject[2].innerText = "Projects"
